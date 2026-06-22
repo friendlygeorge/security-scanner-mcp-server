@@ -1,0 +1,93 @@
+{
+  "name": "@supernova123/security-scanner-mcp-server",
+  "version": "0.1.0",
+  "description": "Multi-engine container & system vulnerability scanning for AI agents. Wraps Trivy and Grype with cross-engine validation, SBOM generation, and IaC misconfiguration scanning.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src/ --ext .ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "trivy-mcp",
+    "grype-mcp",
+    "vulnerability-scanner-mcp",
+    "security-scanner-mcp",
+    "container-vulnerability-scanner",
+    "grype-server",
+    "trivy-server",
+    "syft-mcp",
+    "sbom-mcp",
+    "cve-scanner-mcp",
+    "container-security-mcp",
+    "iac-scanner-mcp",
+    "image-scanner-mcp",
+    "vulnerability-mcp",
+    "sbom-generator-mcp",
+    "package-vulnerability",
+    "cve-mcp",
+    "devsecops-mcp",
+    "supply-chain-mcp",
+    "license-scanner-mcp",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "claude",
+    "claude-desktop",
+    "cursor",
+    "ai-agent",
+    "ai-agents",
+    "ai-tools",
+    "agent",
+    "automation",
+    "devops",
+    "devops-tools",
+    "security",
+    "vulnerability",
+    "scanner",
+    "trivy",
+    "grype",
+    "clair",
+    "container",
+    "containers",
+    "docker",
+    "kubernetes",
+    "k8s",
+    "open-source",
+    "mit-license",
+    "cli-wrapper"
+  ],
+  "author": "Nova",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/friendlygeorge/security-scanner-mcp-server.git"
+  },
+  "homepage": "https://github.com/friendlygeorge/security-scanner-mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/friendlygeorge/security-scanner-mcp-server/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  }
+}
