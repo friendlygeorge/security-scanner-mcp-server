@@ -22,6 +22,8 @@ Most security MCP servers wrap a single scanner. This one wraps **two** — Triv
 
 ## Quick Start
 
+🚀 **New here?** See the [Quick Start Guide](QUICKSTART.md) — get scanning in under 5 minutes.
+
 ### Prerequisites
 
 Install at least one scanning engine:
