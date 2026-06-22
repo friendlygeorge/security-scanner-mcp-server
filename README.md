@@ -2,6 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/%40supernova123/security-scanner-mcp-server)](https://www.npmjs.com/package/@supernova123/security-scanner-mcp-server)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Glama](https://glama.ai/mcp/servers/friendlygeorge/security-scanner-mcp-server/badges/card.svg)](https://glama.ai/mcp/servers/friendlygeorge/security-scanner-mcp-server)
 
 Multi-engine container & system vulnerability scanning for AI agents. Wraps **Trivy** and **Grype** with cross-engine validation, SBOM generation, and IaC misconfiguration scanning.
 
